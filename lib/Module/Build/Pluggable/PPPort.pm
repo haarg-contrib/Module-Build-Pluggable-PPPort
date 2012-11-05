@@ -1,8 +1,8 @@
 package Module::Build::Pluggable::PPPort;
 use strict;
 use warnings;
-use 5.010001;
-our $VERSION = '0.01';
+use 5.008001;
+our $VERSION = '0.03';
 
 use parent qw/Module::Build::Pluggable::Base/;
 use Class::Accessor::Lite (
