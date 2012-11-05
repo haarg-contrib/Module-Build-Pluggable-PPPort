@@ -16,6 +16,7 @@ my $build = Module::Build->new(
         'parent'                        => '0',
         'Class::Accessor::Lite'         => '0',
         'Devel::PPPort' => 3.19,
+        'Module::Build::Pluggable' => 0.03,
     },
 
     no_index    => { 'directory' => [ 'inc' ] },
