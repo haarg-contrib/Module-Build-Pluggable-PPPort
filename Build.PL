@@ -6,7 +6,7 @@ my $build = Module::Build->new(
     license              => 'perl',
     dynamic_config       => 0,
 
-    build_requires       => {
+    test_requires       => {
         'Test::More' => '0.98',
     },
     configure_requires   => { 'Module::Build' => '0.38' },
