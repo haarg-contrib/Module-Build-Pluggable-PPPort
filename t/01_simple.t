@@ -2,7 +2,6 @@ use strict;
 use warnings;
 use utf8;
 use Test::More;
-use Test::Requires 'File::Temp';
 use Test::Module::Build::Pluggable;
 
 use File::Spec;
